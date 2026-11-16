@@ -1,0 +1,13 @@
+{
+  "name": "@shop-agent/sdk",
+  "version": "0.1.0",
+  "description": "Typed client for the Shop Agent API (sessions, streaming chat, confirmations).",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@shop-agent/core": "*"
+  }
+}

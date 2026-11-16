@@ -1,0 +1,1 @@
+ALTER TABLE "catalogs" ADD COLUMN "bundles" jsonb DEFAULT '[]'::jsonb NOT NULL;

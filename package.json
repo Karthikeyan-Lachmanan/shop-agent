@@ -1,0 +1,27 @@
+{
+  "name": "shop-agent",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "npm run dev -w @shop-agent/api",
+    "build": "npm run build -w @shop-agent/api",
+    "start": "npm run start -w @shop-agent/api",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "db:generate": "npm run generate -w @shop-agent/db",
+    "seed:tenant": "npm run seed:tenant -w @shop-agent/api --"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "~5.8",
+    "vitest": "^3.2.7"
+  }
+}

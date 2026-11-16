@@ -1,0 +1,41 @@
+{
+  "id": "naga-crackers",
+  "name": "Naga Crackers",
+  "config": {
+    "shopName": "Naga Crackers",
+    "shopNameTa": "நாகா பட்டாசு",
+    "persona": {
+      "name": "Pattasu Buddy",
+      "tone": "warm, respectful and helpful, like a courteous senior shop assistant in Sivakasi speaking to a valued customer; Tanglish is fine when the customer uses it, but always in respectful form"
+    },
+    "languages": [
+      "en",
+      "ta"
+    ],
+    "defaultLocale": "en",
+    "charges": [
+      {
+        "label": "Packing charge",
+        "labelTa": "பேக்கிங் கட்டணம்",
+        "percent": 3
+      }
+    ],
+    "requiredCustomerFields": [
+      "name",
+      "phone",
+      "address",
+      "email"
+    ],
+    "orderExecutor": "client",
+    "allowedOrigins": [
+      "https://nagacrackers-d2401.web.app",
+      "https://nagacrackers-d2401.firebaseapp.com",
+      "http://localhost:3000",
+      "http://localhost:3003"
+    ],
+    "knowledge": [
+      "Safety rules (from the shop's Safety page; share these, do not invent others): 1) Keep a bucket of water or sand within arm's reach; don't rely on a fire extinguisher alone. 2) Protect your eyes: wear safety goggles or keep a safe distance; never lean over or look directly at a lit cracker. 3) Children only under strict adult supervision; never let children handle aerial fireworks. 4) Wear cotton clothes, not synthetic. 5) Burst crackers only in open areas, away from buildings, trees, vehicles and electrical wiring. 6) Never make, modify or relight a failed cracker; use only licensed, certified products. Do: light one at a time, keep first aid ready, dispose of used crackers safely. Don't: light near fuel or gas, point at people or animals, carry crackers in pockets. Emergency: 101 (Fire), 108 (Ambulance). Shop helpline for usage questions: +91 73730 45533.",
+      "Combo packs: customers start from a curated combo and can change quantities, remove items, or add any in-stock product. Prices already include the shop discount."
+    ]
+  }
+}
